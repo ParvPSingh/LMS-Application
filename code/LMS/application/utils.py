@@ -4,7 +4,7 @@ from jinja2 import Template
 
 def webhook(user):
     
-    url = "https://chat.googleapis.com/v1/spaces/AAAALeQZs0Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=PVWenws8IVFen10QicsYtQK_FBrkvGpbUqcz-66_JN4"
+    url = "chat.google_api_is_req_here"
     msg = f"Hello {user},\nYou have not visited the library."
     app_message = {"text": msg}
     message_headers = {"Content-Type": "application/json; charset=UTF-8"}
